@@ -41,3 +41,13 @@ body {
   font-size: 10px; /* Contoh ukuran manual */
 }
 
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+
