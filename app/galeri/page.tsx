@@ -10,7 +10,7 @@ const Galeri = () => {
     const kegiatanRef = useRef<HTMLDivElement>(null);
 
     const karyaImages = ['karya1.jpg', 'karya2.jpg', 'karya3.jpg', 'karya4.jpg'];
-    const kegiatanImages = ['kegiatan1.png', 'kegiatan2.png', 'kegiatan3.jpg', 'kegiatan4.jpg'];
+    const kegiatanImages = ['kegiatan1.jpg', 'kegiatan2.jpg', 'kegiatan3.jpg', 'kegiatan4.jpg'];
 
     const loopedKaryaImages = [...karyaImages, ...karyaImages];
     const loopedKegiatanImages = [...kegiatanImages, ...kegiatanImages];
