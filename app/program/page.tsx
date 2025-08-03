@@ -38,7 +38,7 @@ const Program: React.FC = () => {
                     </div>
 
                     {/* Spesifikasi */}
-                    <div className="bg-gray-200 rounded-[5rem] p-6 shadow-lg w-full lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
+                    <div className="bg-gray-200 rounded-[5rem] p-10 shadow-lg w-fit lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
                         <div className="absolute top-[-30px] right-[-10px] w-[130px] h-[130px] rounded-full overflow-hidden">
                             <Image
                                 src="/images/spesifikasi.png"
@@ -48,8 +48,8 @@ const Program: React.FC = () => {
                                 className="rounded-full"
                             />
                         </div>
-                        <h3 className="font-bold mb-3 text-2xl pl-10">SPESIFIKASI</h3>
-                        <ul className="list-disc list-inside text-lg pl-10">
+                        <h3 className="font-bold mb-3 text-2xl pl-5">SPESIFIKASI</h3>
+                        <ul className="list-disc list-inside text-lg pl-5">
                             <li>Jumlah sesi: 40 sesi (1 sesi 2 jam)</li>
                             <li>Kuota siswa perkelas: 8-12 siswa</li>
                             <li>Pilihan waktu belajar: sabtu / minggu</li>
@@ -58,7 +58,7 @@ const Program: React.FC = () => {
                     </div>
 
                     {/* Program */}
-                    <div className="bg-gray-200 rounded-[5rem] p-6 shadow-lg w-full lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
+                    <div className="bg-gray-200 rounded-[5rem] p-10 shadow-lg w-full lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
                         <div className="absolute top-[-30px] right-[-10px] w-[130px] h-[130px] rounded-full overflow-hidden">
                             <Image
                                 src="/images/program.png"
@@ -68,8 +68,8 @@ const Program: React.FC = () => {
                                 className="rounded-full"
                             />
                         </div>
-                        <h3 className="font-bold mb-3 text-2xl pl-10">PROGRAM</h3>
-                        <ul className="list-disc list-inside text-lg pl-10">
+                        <h3 className="font-bold mb-3 text-2xl pl-5">PROGRAM</h3>
+                        <ul className="list-disc list-inside text-lg pl-5">
                             <li>TK / SD</li>
                             <li>SMP / SEDERAJAT</li>
                             <li>SMA / SEDERAJAT</li>
@@ -101,7 +101,7 @@ const Program: React.FC = () => {
                                 alt="Program SD"
                                 width={300}
                                 height={300}
-                                className="absolute top-0 right-[-70px] object-contain"
+                                className="absolute top-4 right-[-70px] object-contain"
                             />
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const Program: React.FC = () => {
                                 alt="Program SNBP"
                                 width={350}
                                 height={350}
-                                className="absolute top-0 right-[-90px] object-contain"
+                                className="absolute top-[-20] right-[-90px] object-contain"
                             />
                         </div>
                     </div>
@@ -140,7 +140,7 @@ const Program: React.FC = () => {
                                 alt="Program USM"
                                 width={200}
                                 height={100}
-                                className="absolute top-[-140px] right-[-40px] object-contain"
+                                className="absolute top-[-160px] right-[-40px] object-contain"
                             />
                         </div>
                     </div>
