@@ -58,7 +58,7 @@ const Program: React.FC = () => {
                     </div>
 
                     {/* Program */}
-                    <div className="bg-gray-200 rounded-[5rem] p-14 shadow-lg w-fit lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
+                    <div className="bg-gray-200 rounded-[5rem] p-11 shadow-lg w-fit lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
                         <div className="absolute top-[-30px] right-[-10px] w-[130px] h-[130px] rounded-full overflow-hidden">
                             <Image
                                 src="/images/program.png"
@@ -101,7 +101,7 @@ const Program: React.FC = () => {
                                 alt="Program SD"
                                 width={300}
                                 height={300}
-                                className="absolute top-4 right-[-70px] object-contain"
+                                className="absolute top-1 right-[-70px] object-contain"
                             />
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const Program: React.FC = () => {
                                 alt="Program SNBP"
                                 width={350}
                                 height={350}
-                                className="absolute top-[-20] right-[-90px] object-contain"
+                                className="absolute top-[-30] right-[-90px] object-contain"
                             />
                         </div>
                     </div>
@@ -138,9 +138,9 @@ const Program: React.FC = () => {
                             <Image
                                 src="/images/usm.png"
                                 alt="Program USM"
-                                width={200}
+                                width={170}
                                 height={100}
-                                className="absolute top-[-170px] right-[-40px] object-contain"
+                                className="absolute top-[-120px] right-[-40px] object-contain"
                             />
                         </div>
                     </div>
