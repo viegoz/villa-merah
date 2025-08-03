@@ -58,7 +58,7 @@ const Program: React.FC = () => {
                     </div>
 
                     {/* Program */}
-                    <div className="bg-gray-200 rounded-[5rem] p-10 shadow-lg w-full lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
+                    <div className="bg-gray-200 rounded-[5rem] p-20 shadow-lg w-fit lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
                         <div className="absolute top-[-30px] right-[-10px] w-[130px] h-[130px] rounded-full overflow-hidden">
                             <Image
                                 src="/images/program.png"
@@ -68,8 +68,8 @@ const Program: React.FC = () => {
                                 className="rounded-full"
                             />
                         </div>
-                        <h3 className="font-bold mb-3 text-2xl pl-5">PROGRAM</h3>
-                        <ul className="list-disc list-inside text-lg pl-5">
+                        <h3 className="font-bold mb-3 text-2xl pl-2">PROGRAM</h3>
+                        <ul className="list-disc list-inside text-lg pl-2">
                             <li>TK / SD</li>
                             <li>SMP / SEDERAJAT</li>
                             <li>SMA / SEDERAJAT</li>
