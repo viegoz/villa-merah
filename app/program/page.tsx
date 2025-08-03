@@ -27,8 +27,8 @@ const Program: React.FC = () => {
                                 className="rounded-full"
                             />
                         </div>
-                        <h3 className="font-bold mb-3 text-2xl pl-10">FASILITAS</h3>
-                        <ul className="list-disc list-inside text-lg pl-10">
+                        <h3 className="font-bold mb-3 text-2xl pl-5">FASILITAS</h3>
+                        <ul className="list-disc list-inside text-lg pl-5">
                             <li>webinar dan google classroom</li>
                             <li>pendamping portofolio SNBP-SNBT</li>
                             <li>Konsultasi online</li>
@@ -48,8 +48,8 @@ const Program: React.FC = () => {
                                 className="rounded-full"
                             />
                         </div>
-                        <h3 className="font-bold mb-3 text-2xl pl-5">SPESIFIKASI</h3>
-                        <ul className="list-disc list-inside text-lg pl-5">
+                        <h3 className="font-bold mb-3 text-2xl pl-3">SPESIFIKASI</h3>
+                        <ul className="list-disc list-inside text-lg pl-3">
                             <li>Jumlah sesi: 40 sesi (1 sesi 2 jam)</li>
                             <li>Kuota siswa perkelas: 8-12 siswa</li>
                             <li>Pilihan waktu belajar: sabtu / minggu</li>
@@ -58,7 +58,7 @@ const Program: React.FC = () => {
                     </div>
 
                     {/* Program */}
-                    <div className="bg-gray-200 rounded-[5rem] p-20 shadow-lg w-fit lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
+                    <div className="bg-gray-200 rounded-[5rem] p-14 shadow-lg w-fit lg:w-1/3 relative transition-transform duration-300 hover:scale-105">
                         <div className="absolute top-[-30px] right-[-10px] w-[130px] h-[130px] rounded-full overflow-hidden">
                             <Image
                                 src="/images/program.png"
@@ -68,8 +68,8 @@ const Program: React.FC = () => {
                                 className="rounded-full"
                             />
                         </div>
-                        <h3 className="font-bold mb-3 text-2xl pl-2">PROGRAM</h3>
-                        <ul className="list-disc list-inside text-lg pl-2">
+                        <h3 className="font-bold mb-3 text-2xl">PROGRAM</h3>
+                        <ul className="list-disc list-inside text-lg">
                             <li>TK / SD</li>
                             <li>SMP / SEDERAJAT</li>
                             <li>SMA / SEDERAJAT</li>
@@ -140,7 +140,7 @@ const Program: React.FC = () => {
                                 alt="Program USM"
                                 width={200}
                                 height={100}
-                                className="absolute top-[-160px] right-[-40px] object-contain"
+                                className="absolute top-[-170px] right-[-40px] object-contain"
                             />
                         </div>
                     </div>
