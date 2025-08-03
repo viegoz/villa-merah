@@ -140,7 +140,7 @@ const Program: React.FC = () => {
                                 alt="Program USM"
                                 width={170}
                                 height={100}
-                                className="absolute top-[-130px] right-[-40px] object-contain"
+                                className="absolute top-[-140px] right-[-40px] object-contain"
                             />
                         </div>
                     </div>
